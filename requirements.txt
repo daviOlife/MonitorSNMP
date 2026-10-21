@@ -1,0 +1,2 @@
+pysnmp>=6.2
+matplotlib>=3.7

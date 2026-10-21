@@ -1,0 +1,44 @@
+{
+  "router": {
+    "host": "192.168.56.10",
+    "port": 161,
+    "version": "2c",
+    "community": "public",
+    "timeout": 2.0,
+    "retries": 1,
+    "v3": {
+      "user": "",
+      "auth_protocol": "SHA",
+      "auth_key": "",
+      "priv_protocol": "AES",
+      "priv_key": ""
+    }
+  },
+  "interface": {
+    "index": 1,
+    "name": ""
+  },
+  "collection": {
+    "interval": 3.0
+  },
+  "alerts": {
+    "popup": true,
+    "email": false,
+    "email_to": "gracilianoverne@gmail.com",
+    "traffic_in_bps": 50.0,
+    "traffic_out_bps": 50.0,
+    "cpu_percent": 80.0,
+    "cooldown_seconds": 300.0
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "user": "davimjvj1235@gmail.com",
+    "password": "hrrj psmh gydw xgpc",
+    "use_tls": true,
+    "sender": "davimjvj1235@gmail.com"
+  },
+  "storage": {
+    "db_path": "monitor.db"
+  }
+}

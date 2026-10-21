@@ -1,0 +1,44 @@
+{
+  "router": {
+    "host": "192.168.56.10",
+    "port": 161,
+    "version": "2c",
+    "community": "public",
+    "timeout": 2,
+    "retries": 1,
+    "v3": {
+      "user": "",
+      "auth_protocol": "SHA",
+      "auth_key": "",
+      "priv_protocol": "AES",
+      "priv_key": ""
+    }
+  },
+  "interface": {
+    "index": 1,
+    "name": ""
+  },
+  "collection": {
+    "interval": 5
+  },
+  "alerts": {
+    "popup": true,
+    "email": false,
+    "email_to": "",
+    "traffic_in_bps": 5000000,
+    "traffic_out_bps": 5000000,
+    "cpu_percent": 80,
+    "cooldown_seconds": 300
+  },
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "user": "",
+    "password": "",
+    "use_tls": true,
+    "sender": ""
+  },
+  "storage": {
+    "db_path": "monitor.db"
+  }
+}
